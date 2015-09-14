@@ -1,5 +1,4 @@
 require_relative 'spec_helper'
-require 'pry'
 
 describe "my_each" do
   it "iterates over each element" do
