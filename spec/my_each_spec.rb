@@ -24,6 +24,7 @@ describe "my_each" do
 
     # This line tests that each word gets printed out by the loop!
     expect($stdout).to receive(:puts).exactly(words.length).times
+    
     my_each(words) do |word|
       puts word
     end
